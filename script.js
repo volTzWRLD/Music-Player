@@ -462,7 +462,7 @@ function playMusic(e){
         clearInterval(Interval)
 
         btn_Play.style      = 'display: none; position: absolute; left: 50%; transform: translate(-50%, -35px); margin-right: 30px;';
-        btn_Pause.style     = "display: block; position: absolute; left: 50%; transform: translate(-50%, -35px); margin-right: 30px;";
+        btn_Pause.style     = "display: block; position: absolute; left: 50%; transform: translate(-50%, -35px); margin-right: 30px; margin-top: -1px";";
         btn_forWards.style  = "margin-left: 60px";      
         btn_Pause.style.opacity  = '1';
 
