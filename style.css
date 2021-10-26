@@ -1,0 +1,1098 @@
+*{
+
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+
+}
+
+main .image-body{
+
+    filter: blur(10px);
+    height: 99.4vh;
+    width: 100%;
+
+}
+
+.design-Music{
+
+    position: fixed;
+    top: 0; left: 50%;
+    transform: translate(-50%);
+    padding: 50px;  
+    width: 430px;
+
+}
+
+.options{
+
+    position: relative;
+    left: 52%; bottom: 20px;
+    margin-top: 1px;
+    transition: all .3s ease-in-out;
+
+
+}
+
+#options{
+    filter: invert(100%)
+
+}
+
+#options:hover{
+
+    cursor: pointer;
+    filter: invert(0%)
+
+}
+
+.options-Description{
+
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 1em;
+    top: -13px;
+    left: 37%; bottom: 30px;
+    color: white;
+
+}
+
+.paragraph-options{
+
+    margin-bottom: 10px;
+
+}
+
+#order{
+
+    display: none;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0.541);
+    border-style: solid;
+    box-shadow: 10px 6px 10px rgba(255, 255, 255, 0.541);
+
+}
+
+.order-list{
+
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -100%);
+    list-style: none;
+    padding: 20px; 
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    z-index: 100;
+    width: 22%;
+
+}
+
+.order-Control{
+
+    position: relative;
+    list-style: none;
+    padding: 20px; 
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    z-index: 100;
+    width: 100%;
+
+}
+
+.order-list ol{
+
+    bottom: 50%;
+    transform: translateY(1%);
+
+}
+
+.velocity{
+
+    margin-bottom: 30px;
+
+}
+
+.velocity, .playlist{
+    
+    font-size: 1.3rem;
+    text-align: center;
+
+}   
+
+.velocity:hover, .playlist:hover{
+
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+}
+
+.close-Div{
+
+    position: absolute;
+    right: 0; top: 0;
+    height: 24px;
+    margin-top: 13px;
+    margin-right: 22px;
+
+}
+
+.close-Div:hover{
+
+    cursor: pointer;
+    filter: invert(65%);
+    transition: all .4s ease-in-out;
+
+}
+
+.choose-Speed{
+
+    display: none;
+
+}
+
+.order-Velocity, .playlist-Order{
+
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -80%);
+    list-style: none;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    z-index: 100;
+    width: 425px;
+    padding: 20px;
+
+}
+
+#playlist{
+
+    display: none;
+
+}
+
+.arrow-back, .back-Playlist{
+
+    display: block;
+    margin-left: auto; margin-right: auto;
+
+}
+
+.arrow-back:hover, .back-Playlist:hover{
+
+    cursor: pointer;
+    filter: invert(65%);
+    transition: all .4s ease-in-out;
+
+}
+
+.playlist-Order li:hover{
+
+    transition: all .4s ease-in-out;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+
+.velocityChoose{
+
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1em;
+
+}
+
+.velocityChoose li{
+
+    margin-top: 10px;;
+
+}
+
+
+.velocityChoose li:hover{
+
+    color: black;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+
+.paragraph-velocity{
+
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.Playlist-Show{
+
+    position: relative;
+    font-size: 1em;
+
+}
+
+.Playlist-Show li{
+
+    margin-top: 20px;
+
+}
+
+#choosePlaylist li:hover{
+
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    color: black
+
+}
+
+.the-final{
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.the-final-2{
+
+    position: absolute;
+    right: 0;
+    top: 40px;
+
+}
+
+.the-final-3{
+
+    position: absolute;
+    right: 0;
+    top: 80px;
+
+}
+
+.the-final-4{
+
+    position: absolute;
+    right: 0;
+    top: 115px;
+
+}
+
+.the-final-5{
+
+    position: absolute;
+    right: 0;
+    top: 155px;
+
+}
+
+.the-final-6{
+
+    position: absolute;
+    right: 0;
+    top: 192px;
+
+}
+
+
+.the-final-7{
+
+    position: absolute;
+    right: 0;
+    top: 229px;
+
+}
+
+
+.L-Urbana{
+
+    width: 350px;
+    height: 350px;
+    
+}  
+
+.title-Music{   
+
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.6rem; color: white;
+
+}
+
+.paragraph{
+
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.4rem; color: white;
+
+}
+
+.input-Music{
+    
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.input-Music input[type="range"]{
+
+
+    -webkit-appearance: none;
+    height: 5px;
+    appearance: none;
+    border-radius: 10px;
+}
+
+.input-Music input[type="range"]:hover{
+
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 5px;
+    appearance: none;
+    border-radius: 10px;
+
+}
+
+.progressBar-Music{
+
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    left: 0;
+    bottom: 4px;
+
+}
+
+.input-Music input[type="range"]::-webkit-slider-thumb{
+
+    appearance: none;
+    display: block;
+    border-radius: 130px;
+    width: 19px;
+    height: 19px;
+    
+}
+
+.duration-Music{
+
+    width: 100%;
+
+}
+
+.buttons-Music{
+
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.play-Music{
+
+    position: relative;
+
+}
+
+.pause{
+
+    display: none;
+
+}
+
+.back-Music, .backWards-Music{
+
+    margin-right: 30px;
+
+}
+
+.forWards-Music, .next-Music{
+
+    margin-left: 30px;
+
+}
+
+.back-Music:hover, .backWards-Music:hover, .play-Music:hover, .forWards-Music:hover, .next-Music:hover, .pause-Music:hover{
+
+    filter: invert(50%);
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+
+}
+
+.stopwatch-Music{
+
+    position: relative;
+
+}
+
+.paragraph-stop{
+
+    position: absolute;
+    color: white;
+    font-size: 1.1em;
+
+}
+
+.stopwatch-Music h9{
+
+    position: absolute;
+    left: 88%;
+
+}
+
+.audio input[type="range"]{
+    -webkit-appearance: none;
+    height: 6px;
+    transform: scale(1.2);
+    appearance: none;
+    border-radius: 10px;
+
+
+}
+
+.audio:hover, .audio input[type="range"]:hover{
+
+    cursor: pointer;
+
+}
+
+.audio input[type="range"]{
+    
+    appearance: none;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0px;
+    outline: none;
+}
+
+.audio input[type="range"]::-webkit-slider-thumb{
+
+    position: relative;
+    appearance: none;
+    display: block;
+    border-radius: 190px;
+    width: 15px;
+    height: 15px;
+}
+
+.audio-2{
+
+    position: relative;
+    top: 63px;
+    right: 11%;
+    margin: 10px;
+
+}
+
+.audio-2:hover{
+
+    cursor: pointer;
+    filter: invert(60%);
+    transition: all .5s ease;
+
+}
+
+.ex{
+    
+    display: none;
+
+}
+
+.Audio-range{
+
+    position: relative;
+    z-index: 999;
+    
+}
+
+#Audio-range{
+    
+    position: relative;
+    left: 9%; top: 30px;
+    border-radius: 180px;  
+    display: block;
+    
+}
+
+#progressAudio{
+
+    position: relative;
+    height: 8px;
+    width: 25%;
+    left: 5.1%; top: 23px;
+    border-radius: 180px;
+
+}
+
+.repetion{
+
+    position: relative;
+    left: 100%;
+    margin-right: 10px;
+    top: 100%;
+
+}
+
+.repetion:hover{
+
+    cursor: pointer;
+    filter: invert(65%);
+    transition: all .5s ease-in-out;
+
+}
+
+@media screen and (max-width: 854px){
+    
+    .order-Velocity, .playlist-Order{
+
+        font-size: 1rem;
+
+    }   
+
+    .order-list{
+
+        width: 300px;
+        transform: translate(-50%, -70%);
+    }
+
+    .order-Control{
+
+        width: 250px;
+        transform: translate(-50%, -70%);
+    }
+
+    .order-Control li{
+
+        text-align: center;
+        font-size: 1em;
+
+    }
+
+    .repetion{
+
+        position: relative;
+        bottom: 0px;
+        left: 100%;
+    } 
+
+}
+
+@media screen and (max-width: 540px){
+    
+    .design-Music{
+
+        display: block;
+        margin-top: auto; margin-bottom: auto;
+
+    }
+    
+    .order-Velocity{
+
+        width: 300px;
+        transform: translate(-50%, -70%);
+    }
+
+    .design-Music{
+
+        width: 90vw;
+        transform: translate(-50%);
+        padding: 10px;
+        margin-top: 0;
+        height: auto;
+    }
+
+    .audio{
+
+        position: relative;
+        bottom: 40px;
+        left: 40px
+
+    }
+
+    .buttons-Music img{
+
+        height: 25px;
+
+    }
+    
+    #Audio-range{
+        
+        position: relative;
+        width: 40%;
+        left: 8%; top: 30px;
+        border-radius: 180px;  
+        display: block;
+        
+    }
+
+    .play-Music, .pause-Music{
+
+        margin-top: 6px;
+
+    }
+
+    
+    #progressAudio{
+    
+        position: relative;
+        height: 8px;
+        width: 30%;
+        left: 4%; top: 23px;
+        border-radius: 180px;
+    
+    }
+
+    .repetion{
+
+        position: relative;
+        bottom: 40px;
+        left: 90%;
+    } 
+
+    .options{
+
+        position: relative;
+        left: 47%;
+        bottom: 0;
+
+    }
+
+    .order-Velocity, .playlist-Order{
+
+        font-size: 0.8rem;
+        width: 90%;
+
+    }   
+
+    .the-final{
+
+        position: absolute;
+        right: 0;
+        top: 0;
+    
+    }
+    
+    .the-final-2{
+    
+        position: absolute;
+        right: 0;
+        top: 38px;
+    
+    }
+    
+    .the-final-3{
+    
+        position: absolute;
+        right: 0;
+        top: 73px;
+    
+    }
+    
+    .the-final-4{
+    
+        position: absolute;
+        right: 0;
+        top: 107px;
+    
+    }
+    
+    .the-final-5{
+    
+        position: absolute;
+        right: 0;
+        top: 143px;
+    
+    }
+    
+    .the-final-6{
+    
+        position: absolute;
+        right: 0;
+        top: 176px;
+    
+    }
+    
+    
+    .the-final-7{
+    
+        position: absolute;
+        right: 0;
+        top: 212px;
+    
+    }
+
+}
+
+@media screen and (max-width: 430px){
+    
+    .design-Music{
+
+        height: 100%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 415px){
+
+
+    .design-Music{
+
+        display: block;
+        margin-top: auto; margin-bottom: auto;
+
+    }
+    
+    .order-Velocity{
+
+        width: 300px;
+        transform: translate(-50%, -70%);
+    }
+
+    .design-Music{
+
+        width: 90vw;
+        transform: translate(-50%);
+        padding: 10px;
+        margin-top: 0;
+        height: auto;
+    }
+
+    .audio{
+
+        position: relative;
+        bottom: 40px;
+        left: 20px
+
+    }
+
+
+
+    .buttons-Music img{
+
+        height: 25px;
+
+    }
+    
+    #Audio-range{
+        
+        position: relative;
+        width: 40%;
+        left: 8%; top: 30px;
+        border-radius: 180px;  
+        display: block;
+        
+    }
+
+    .play-Music, .pause-Music{
+
+        margin-top: 6px;
+
+    }
+
+    
+    #progressAudio{
+    
+        position: relative;
+        height: 8px;
+        width: 30%;
+        left: 4%; top: 23px;
+        border-radius: 180px;
+    
+    }
+
+    .repetion{
+
+        position: relative;
+        bottom: 40px;
+        left: 90%;
+    } 
+
+    .options{
+
+        position: relative;
+        left: 47%;
+        bottom: 0;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 375px){
+
+    .design-Music{
+
+        margin-top: 30px;
+
+    }
+
+    #music-Image{
+
+        left: 50%;
+        transform: translateX(50%);
+        width: 50%;
+        height: 200px;
+
+    }
+    
+    .buttons-Music img{
+
+        text-align: center;
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    
+    .play-Music, .pause-Music{
+
+        margin-top: 12px;
+
+    }
+
+    #Audio-range{
+        
+        position: relative;
+        left: 7%; top: 30px;
+        width: 41%;
+        border-radius: 180px;  
+        display: block;
+        
+    }
+    
+    #progressAudio{
+    
+        position: relative;
+        height: 8px;
+        width: 25%;
+        left: 2.9%; top: 23px;
+        border-radius: 180px;
+    
+    }
+
+    .stopwatch-Music{
+
+        font-size: 0.9em;
+
+    }
+}
+
+@media screen and (max-width: 368px){
+    
+    .buttons-Music img{
+
+        height: 25px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    
+    #Audio-range{
+        
+        position: relative;
+        left: 17%; top: 30px;
+        width: 41%;
+        border-radius: 180px;  
+        display: block;
+        
+    }
+
+    .play-Music, .pause-Music{
+
+        margin-top: 8px;
+
+    }
+
+    
+    #progressAudio{
+    
+        position: relative;
+        height: 8px;
+        width: 30%;
+        left: 12%; top: 23px;
+        border-radius: 180px;
+    
+    }
+
+    .order-Velocity{
+
+        width: 100%;
+        transform: translate(-50%, -70%);
+    }
+
+    .order-list, .order-Control{
+
+        width: 100%;
+        transform: translate(-50%, -70%);
+
+    }
+
+
+}
+
+@media screen and (max-width: 320px){
+
+    .buttons-Music img{
+
+        text-align: center;
+        height: 19px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    
+    .play-Music, .pause-Music{
+
+        margin-top: 12px;
+
+    }
+
+    #Audio-range{
+        
+        position: relative;
+        left: 16%; top: 30px;
+        width: 41%;
+        border-radius: 180px;  
+        display: block;
+        
+    }
+    
+    #progressAudio{
+    
+        position: relative;
+        height: 8px;
+        width: 25%;
+        left: 12%; top: 23px;
+        border-radius: 180px;
+    
+    }
+
+    .stopwatch-Music{
+
+        font-size: 0.7em;
+
+    }
+
+    .order-Velocity, .playlist-Order{
+
+        font-size: 0.6rem;
+        width: 90%;
+
+    }   
+
+    .the-final{
+
+        position: absolute;
+        right: 0;
+        top: 0;
+    
+    }
+    
+    .the-final-2{
+    
+        position: absolute;
+        right: 0;
+        top: 33px;
+    
+    }
+    
+    .the-final-3{
+    
+        position: absolute;
+        right: 0;
+        top: 65px;
+    
+    }
+    
+    .the-final-4{
+    
+        position: absolute;
+        right: 0;
+        top: 95px;
+    
+    }
+    
+    .the-final-5{
+    
+        position: absolute;
+        right: 0;
+        top: 129px;
+    
+    }
+    
+    .the-final-6{
+    
+        position: absolute;
+        right: 0;
+        top: 159px;
+    
+    }
+    
+    
+    .the-final-7{
+    
+        position: absolute;
+        right: 0;
+        top: 187px;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 280px){
+    
+    
+    .buttons-Music img{
+
+        text-align: center;
+        height: 19px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    
+    .play-Music, .pause-Music{
+
+        margin-top: 12px;
+
+    }
+
+    #Audio-range{
+        
+        position: relative;
+        left: 16%; top: 30px;
+        width: 41%;
+        border-radius: 180px;  
+        display: block;
+        
+    }
+    
+    #progressAudio{
+    
+        position: relative;
+        height: 8px;
+        width: 25%;
+        left: 12%; top: 23px;
+        border-radius: 180px;
+    
+    }
+
+    .stopwatch-Music{
+
+        font-size: 0.7em;
+
+    }
+
+
+}
