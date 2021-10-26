@@ -6,7 +6,7 @@
   <br>
   
   <ul><li><h2>What is the role of this project?</li></ul></h2>
-  <p>A função desse projeto é simular um music player, a fim de tocar uma playlist feita por mim.</p>
+  <p>The function of this project is to simulate a music player in order to play a playlist made by me.</p>
   <br>
   
   <ul><li><h2>Tools used</h2></li>
