@@ -471,7 +471,7 @@ function playMusic(e){
         btn_Play.removeEventListener(e.type, arguments.callee);
         btn_Pause.addEventListener("click", pauseMusic);
 
-    },400)
+    },200)
 }
 
 function pauseMusic(e){
@@ -497,7 +497,7 @@ function pauseMusic(e){
         btn_Pause.removeEventListener(e.type, arguments.callee);
         btn_Play.addEventListener("click", playMusic);
 
-    },400)
+    },200)
 
 }
 
