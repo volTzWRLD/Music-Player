@@ -455,7 +455,7 @@ function playMusic(e){
 
         btn_Play.style.opacity = '1' - number;
 
-    },30)
+    },10)
 
     timeOut = setTimeout(function(){
 
@@ -471,7 +471,7 @@ function playMusic(e){
         btn_Play.removeEventListener(e.type, arguments.callee);
         btn_Pause.addEventListener("click", pauseMusic);
 
-    },400)
+    },200)
 }
 
 function pauseMusic(e){
@@ -482,7 +482,7 @@ function pauseMusic(e){
 
         btn_Pause.style.opacity = '1' - number;
 
-    },30)
+    },10)
 
     timeOut_2 = setTimeout(function(){
 
@@ -497,7 +497,7 @@ function pauseMusic(e){
         btn_Pause.removeEventListener(e.type, arguments.callee);
         btn_Play.addEventListener("click", playMusic);
 
-    },400)
+    },200)
 
 }
 
@@ -509,7 +509,7 @@ function muteVolume(e){
 
         audio_Desmuted.style.opacity = '1' - number;
 
-    },40)
+    },10)
 
     timeOut = setTimeout(function(){
 
@@ -529,7 +529,7 @@ function muteVolume(e){
 
         muted_Volume = true;
 
-    },500)
+    },200)
 }
 
 function defaultVolume(e){
@@ -541,7 +541,7 @@ function defaultVolume(e){
 
         audio_Muted.style.opacity = '1' + number;
 
-    },40)
+    },10)
 
     timeOut_2 = setTimeout(function(){
 
@@ -566,7 +566,7 @@ function defaultVolume(e){
 
         muted_Volume = false;
         
-    },500)
+    },200)
 
 }
 
