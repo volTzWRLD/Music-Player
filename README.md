@@ -23,7 +23,7 @@
   <li>You can view the current time of the video, and be able to choose the desired time</li><br>
   <li>You can speed up the music, or slow it down.</li><br>
   <li>You have access to the songs within the playlist</li><br>
-  <li>IYou can skip 6 seconds of the song, or go back 6 seconds. Skip to next song, go back to song and also activate infinite loop.</li>
+  <li>You can skip 6 seconds of the song, or go back 6 seconds. Skip to next song, go back to song and also activate infinite loop.</li>
   </ul><br>
 
   <ul><li><h2>Page</h2></li>
