@@ -172,7 +172,7 @@ let Playlist = [
         //File Photo
         "./images/ownerLonely.jpg",
         //File Audio
-        "./musics/OwnerLonely.mp3",
+        "./musics/ownerLonely.mp3",
         //Progress
         verifyTime,
         //Design
